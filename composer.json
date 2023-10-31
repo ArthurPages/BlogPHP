@@ -1,0 +1,17 @@
+{
+    "name": "arturo/blog",
+    "description": "Proyecto de blog",
+    "require": {
+        "phpunit/phpunit": "^10.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "blog\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Arturo"
+        }
+    ]
+}
